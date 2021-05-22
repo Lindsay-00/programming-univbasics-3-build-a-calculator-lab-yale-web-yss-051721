@@ -11,8 +11,10 @@ end
 subtraction "10", "5"
 
 def division(num1, num2)
-  div = num1.to_i 
+  div = num1.to_i / num2.to_i
+  puts div
 end
+division "10", "5"
 
 def multiplication(num1, num2)
 
